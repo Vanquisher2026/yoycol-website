@@ -1,5 +1,5 @@
 .contact {
-  max-width: 600px;
+  max-width: 700px;
   margin: 60px auto;
   padding: 40px;
   background: #fff;
@@ -15,10 +15,24 @@
   text-align: center;
 }
 
+.contact h2.subheading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 28px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--color-primary-600);
+  display: inline-block;
+}
+
 .contact p {
-  color: #666;
+  color: #444;
   line-height: 1.7;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
+}
+
+.infoRow {
+  margin-bottom: 24px;
 }
 
 .whatsapp, .email {
@@ -37,7 +51,7 @@
 }
 
 .whatsapp a, .email a {
-  color: #ff6b00;
+  color: var(--color-primary-600);
   text-decoration: none;
   font-weight: 600;
 }

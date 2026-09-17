@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ProductDetailClient from '../../../components/ProductDetailClient';
 import ProductSchema from '../../../components/ProductSchema';
+import BreadcrumbsSchema from '../../../components/BreadcrumbsSchema';
 
 // SKU images for each product
 const productSkus: Record<string, { label: string; skuImage: string }[]> = {
@@ -134,6 +135,7 @@ export default async function ProductDetail({ params }: { params: Promise<{ slug
   return (
     <>
       <ProductSchema product={product} baseUrl={baseUrl} category={category} />
+      <BreadcrumbsSchema product={product} baseUrl={baseUrl} />
       <ProductDetailClient product={product} />
     </>
   );

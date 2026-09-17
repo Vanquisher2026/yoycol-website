@@ -4,7 +4,8 @@ export default function OrganizationSchema() {
     '@type': 'Organization',
     '@id': 'https://yoycolpod.com/#organization',
     name: 'yoycol',
-    alternateName: 'Yoycol POD',
+    legalName: '莆田市荔城区新度蔡国林喜庆用品店',
+    alternateName: 'Putian City Licheng District Xindu Cai Guolin Festive Supplies Store',
     url: 'https://yoycolpod.com',
     logo: 'https://yoycolpod.com/logo.png',
     description: 'Professional print-on-demand cap factory for global e-commerce sellers. We provide wholesale custom printed caps for Amazon, Etsy, Temu, and Shopify sellers worldwide.',
@@ -30,8 +31,8 @@ export default function OrganizationSchema() {
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'CN',
-      addressRegion: 'Guangdong',
-      addressLocality: 'Shenzhen',
+      addressRegion: 'Fujian',
+      addressLocality: 'Putian',
     },
     areaServed: {
       '@type': 'Place',

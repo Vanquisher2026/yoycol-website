@@ -115,6 +115,32 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      <section className={styles.section}>
+        <h2>Business Information</h2>
+        <p>
+          yoycol is a brand operated by the following legally registered entity:
+        </p>
+        <div className={styles.contactInfo}>
+          <div className={styles.contactItem}>
+            <span className={styles.contactIcon}>🏢</span>
+            <div>
+              <strong>Operating Entity / 经营主体</strong>
+              <span>莆田市荔城区新度蔡国林喜庆用品店</span>
+            </div>
+          </div>
+          <div className={styles.contactItem}>
+            <span className={styles.contactIcon}>🌏</span>
+            <div>
+              <strong>Region / 所在地</strong>
+              <span>Fujian Province, Putian, CN</span>
+            </div>
+          </div>
+        </div>
+        <p style={{ marginTop: 16, fontSize: '0.92rem', color: '#555' }}>
+          <strong>English name:</strong> Putian City Licheng District Xindu Cai Guolin Festive Supplies Store
+        </p>
+      </section>
     </div>
   );
 }

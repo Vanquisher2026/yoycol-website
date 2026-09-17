@@ -57,8 +57,8 @@
 
 .searchInput:focus {
   outline: none;
-  border-color: #ff6b00;
-  box-shadow: 0 0 0 4px rgba(255, 107, 0, 0.1);
+  border-color: var(--color-primary-600);
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
 }
 
 .categoryTabs {
@@ -80,19 +80,19 @@
 }
 
 .categoryTab:hover {
-  border-color: #ff6b00;
-  color: #ff6b00;
+  border-color: var(--color-primary-600);
+  color: var(--color-primary-600);
 }
 
 .activeTab {
-  background: #ff6b00;
-  border-color: #ff6b00;
+  background: var(--color-primary-600);
+  border-color: var(--color-primary-600);
   color: #fff;
 }
 
 .activeTab:hover {
-  background: #e65c00;
-  border-color: #e65c00;
+  background: var(--color-primary-700);
+  border-color: var(--color-primary-700);
   color: #fff;
 }
 
@@ -189,7 +189,7 @@
 
 .noResults button {
   padding: 12px 28px;
-  background: #ff6b00;
+  background: var(--color-primary-600);
   color: #fff;
   border: none;
   border-radius: 50px;
@@ -200,7 +200,7 @@
 }
 
 .noResults button:hover {
-  background: #e65c00;
+  background: var(--color-primary-700);
 }
 
 /* Responsive */

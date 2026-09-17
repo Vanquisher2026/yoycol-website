@@ -14,7 +14,7 @@
 }
 
 .breadcrumb a:hover {
-  color: #ff6b00;
+  color: var(--color-primary-600);
 }
 
 .container {
@@ -133,7 +133,7 @@
 }
 
 .indicatorActive {
-  background: #ff6b00;
+  background: var(--color-primary-600);
 }
 
 /* ===== Detail Images Section ===== */
@@ -270,8 +270,8 @@
 }
 
 .skuSelected {
-  border-color: #ff6b00 !important;
-  box-shadow: 0 0 0 2px rgba(255, 107, 0, 0.3);
+  border-color: var(--color-primary-600) !important;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.3);
 }
 
 /* ===== Right: Info Section ===== */
@@ -434,7 +434,7 @@
   gap: 8px;
   width: 100%;
   padding: 13px 20px;
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  background: linear-gradient(135deg, var(--color-primary-600) 0%, var(--color-primary-400) 100%);
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -448,7 +448,7 @@
 
 .emailBtn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
 }
 
 /* ===== Share Section ===== */
@@ -567,7 +567,7 @@
 }
 
 .tab.activeTab {
-  color: #ff6b00;
+  color: var(--color-primary-600);
 }
 
 .tab.activeTab::after {
@@ -577,7 +577,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: #ff6b00;
+  background: var(--color-primary-600);
 }
 
 .detailContent {
