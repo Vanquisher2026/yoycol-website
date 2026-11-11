@@ -52,16 +52,6 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className={styles.legalRow}>
-          <p className={styles.legalLabel}>Operating Entity / 经营主体</p>
-          <p className={styles.legalName}>
-            莆田市荔城区新度蔡国林喜庆用品店
-          </p>
-          <p className={styles.legalEn}>
-            Putian City Licheng District Xindu Cai Guolin Festive Supplies Store · Fujian, China
-          </p>
-        </div>
-
         <div className={styles.bottomRow}>
           <p>&copy; {year} yoycol. All rights reserved.</p>
           <div className={styles.legalLinks}>

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description: 'Professional print-on-demand cap factory. 3D full-print hats, baseball caps, berets, fisherman hats, knit caps. MOQ 1 piece, worldwide shipping. Perfect for Amazon, Etsy, Temu, Shopify sellers.',
   authors: [{ name: 'yoycol', url: BASE_URL }],
   creator: 'yoycol',
-  publisher: '莆田市荔城区新度蔡国林喜庆用品店',
+  publisher: 'yoycol',
   robots: {
     index: true,
     follow: true,
