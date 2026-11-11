@@ -1,22 +1,5 @@
 /* Product Detail Page Styles - For POD Sellers */
 
-/* Breadcrumb */
-.breadcrumb {
-  margin-bottom: 24px;
-  color: #999;
-  font-size: 0.9rem;
-}
-
-.breadcrumb a {
-  color: #666;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.breadcrumb a:hover {
-  color: var(--color-primary-600);
-}
-
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -176,33 +159,11 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* ===== Video Player Section ===== */
-.videoSection {
-  border-radius: 16px;
-  overflow: hidden;
-  border: 1px solid #eee;
-  background: #000;
-}
-
-.videoPlayer {
-  width: 100%;
-  display: block;
-  border-radius: 16px;
-}
-
-.mainImage {
-  cursor: zoom-in;
-}
-
 .mainImg {
   width: 100%;
   height: auto;
   display: block;
   aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.image {
   object-fit: cover;
 }
 

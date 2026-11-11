@@ -406,13 +406,6 @@
     align-items: center;
   }
 
-  .primaryBtn,
-  .secondaryBtn {
-    width: 100%;
-    max-width: 280px;
-    text-align: center;
-  }
-
   .categoryGrid {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
