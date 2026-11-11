@@ -76,37 +76,6 @@
   color: #fff;
 }
 
-.legalRow {
-  max-width: 1280px;
-  margin: 36px auto 0;
-  padding-top: 20px;
-  border-top: 1px solid #333;
-}
-
-.legalLabel {
-  margin: 0 0 8px;
-  color: #fff;
-  font-size: 0.82rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.legalName {
-  margin: 0;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.6;
-}
-
-.legalEn {
-  margin: 6px 0 0;
-  color: #aaa;
-  font-size: 0.88rem;
-  line-height: 1.6;
-}
-
 .bottomRow {
   max-width: 1280px;
   margin: 16px auto 0;
